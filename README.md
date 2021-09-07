@@ -5,7 +5,6 @@
 [![codecov](https://codecov.io/gh/godogx/expandvars/branch/master/graph/badge.svg?token=eTdAgDE2vR)](https://codecov.io/gh/godogx/expandvars)
 [![Go Report Card](https://goreportcard.com/badge/github.com/godogx/expandvars)](https://goreportcard.com/report/github.com/godogx/expandvars)
 [![GoDevDoc](https://img.shields.io/badge/dev-doc-00ADD8?logo=go)](https://pkg.go.dev/github.com/godogx/expandvars)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=PJZSGJN57TDJY)
 
 A lifesaver expander for [`cucumber/godog`](https://github.com/cucumber/godog) because, sometimes, you have to use variables in your steps.
 
