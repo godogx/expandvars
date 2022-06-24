@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/cucumber/godog v0.12.5
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.7.5
 )
 
 require (
