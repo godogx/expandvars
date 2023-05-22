@@ -61,7 +61,7 @@ func TestIntegration(t *testing.T) {
 		expandvars.EnvExpander,
 	)
 
-	err := os.Setenv("FOOBAR", "foobar") // nolint: tenv
+	err := os.Setenv("FOOBAR", "foobar") //nolint: tenv
 	assert.NoError(t, err)
 
 	stepCtx := newStepCtx()
