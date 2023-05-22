@@ -83,7 +83,7 @@ func TestChainExpanders(t *testing.T) {
 	assert.NoError(t, os.Setenv("DATE", "Thursday"))
 
 	defer func() {
-		_ = os.Unsetenv("DATE") // nolint:errcheck
+		_ = os.Unsetenv("DATE") //nolint:errcheck
 	}()
 
 	content := "On $DATE, $HUSBAND & $WIFE are going from $FROM to $TO $TRANSPORT $DURATION"

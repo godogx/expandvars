@@ -45,7 +45,7 @@ func TestExpandStep(t *testing.T) {
 	assert.NoError(t, os.Setenv("GREETINGS", "Hi Dave"))
 
 	defer func() {
-		_ = os.Unsetenv("GREETINGS") // nolint:errcheck
+		_ = os.Unsetenv("GREETINGS") //nolint:errcheck
 	}()
 
 	step := &godog.Step{Text: "$GREETINGS, $HUSBAND & $WIFE are going from $FROM to $TO $TRANSPORT $DURATION"}
